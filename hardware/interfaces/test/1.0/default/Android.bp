@@ -1,0 +1,29 @@
+cc_binary {
+    name: "android.hardware.test@1.0-service",
+    relative_install_path: "hw",
+    defaults: ["hidl_defaults"],
+    proprietary: true,
+    init_rc: ["android.hardware.test@1.0-service.rc"],
+    srcs: [
+        "Test.cpp",
+        "TestCallback.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",      
+        "liblog",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "android.hardware.test@1.0",
+    ],
+
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-Wno-unused-parameter",
+    ],
+}

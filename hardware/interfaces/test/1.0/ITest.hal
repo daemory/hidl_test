@@ -1,0 +1,14 @@
+//ITest.hal
+package android.hardware.test@1.0;
+
+import ITestCallback;
+
+interface ITest {
+    init(TestID id);
+    //无返回值
+    helloWorld(string name) generates (string result);
+    //变量类型string 不是String
+    setCallback(ITestCallback callback) generates (bool res);
+    //变量类型bool 不是boolean
+    release();
+};
