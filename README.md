@@ -28,7 +28,7 @@
 
 
 #### 特技
-
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCioUxSZevv0xuxrg9AjT30ijG96dP9uLOVW6Wb1f7UtCRdNE0a7UNRpxi1axDHhnZmw8OT9ddWEBQwQarFbt8YHUL6LEw4O5on3+i+Jn2WpxZProHw6mrY29r0oG+d7/HYn5gINzVrx7IESvWYV6o5WGYP84TVg7MQC4vXlFEXhltrDsR17Zpr7BrzPp90sT8jLAPCnJDjyS+96Dh202+fBlU1wlUYxlxS5Mej4zEKYWRjLEqJojEN2ap9lxO8YB5YkzRzLxiV9Y6W32VfEUe3CgEuSBhKAtRBpz4wBaXSrNaRXeJTcEnefQuDHhWUSY+ktwX+YLU/g1mducpDLwiF JuiceSSH
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
 2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
 3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
